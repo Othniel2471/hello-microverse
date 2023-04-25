@@ -21,7 +21,7 @@
 html and css
 
 ### Key Features <a name="key-features"></a>
--shows hello microverse
+-shows hello microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
