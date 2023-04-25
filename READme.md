@@ -29,7 +29,7 @@ html and css
 
 👤 **Author1**
 
-Omaidu Othniel
+Omaidu Othniel.
 
 - GitHub: [@githubhandle](https://github.com/othniel2471)
 - Twitter: [@twitterhandle](Oomaidu)
