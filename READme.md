@@ -5,20 +5,14 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  [Setup](#setup)
+  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
+  -- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 
@@ -29,71 +23,123 @@
 ## 🛠 Built With <a name="built-with"></a>
 html and css
 
+### Tech Stack <a name="tech-stack"></a>
+
+  <summary>Javascript runtime environment</summary>
+  <ul>
+    <li><a href="https://nodejs.org/en/">Node JS</a></li>
+  </ul>
+
+  <summary>Version control</summary>
+  <ul>
+    <li><a href="github.com">Git Hub</a></li>
+  </ul>
+</details
+
+
 ### Key Features <a name="key-features"></a>
--shows hello microverse.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-
-- [Live Demo Link](coming soon!!)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
+-shows hello microverse
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+Creating your first "Hello-microverse" project
 
-1. pull the code from the github and unzip the file
-2. open folder with a code editor eg.(vs code)
+To get a local copy up and running, follow these steps.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Prerequisites
 
 In order to run this project you need:
-1. vs code
+
+-A Git hub account
+<br>
+-Node JS
+<br>
+-A code editor like(Visual Studio Code) or any other code editor of your choice
+<br>
+-web browser (Chrome preferably)
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder:<br>
 
-you copy the url of the git repo
+<!--
+Example commands:
 
-then you:
+```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Othniel2471/hello-microverse.git
+```
+--->
 
-  in your desired folder
+## Install Linters
 
+You can find linters for most of the programming languages, e.g. Rubocop for Ruby or ESLint for JavaScript.
 
-### Install
+Also, there are many ways you can integrate a linter in your workflow:
 
-coming soon!!
+-text editor plugin<br>
+-GitHub Actions<br>
+-GitHub apps<br>
 
-### Usage
+## Set up Linters
 
-you can install the live server extension on your vs code and run it in your index.html file to run project
+**Note:** The npm package manager is going to create a node_modules directory to install all of your dependencies. You shouldn't commit that directory. To avoid that, you can create a .gitignore file and add node_modules to it:
 
-### Run tests
+# .gitignore
 
-To run tests, run the following command:
+node_modules/
 
-coming soon!!
+## Web Hint
 
-### Deployment
+This is a customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors.
 
-You can deploy this project using:
+**NOTE:** If you are using Windows, make sure you initialize npm to create `package.json` file.
 
-github pages
+```
+npm init -y
+```
+
+1. Run
+   ```
+   npm install --save-dev hint@7.x
+   ```
+   _how to use npm: (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)._
+2. Copy [.hintrc](.hintrc) to the root directory of your project.
+3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
+4. Run
+   ```
+   npx hint .
+   ```
+5. Fix validation errors.
+
+### [Stylelint](https://stylelint.io/)
+
+A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+
+1. Run
+
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+not sure how to use npm? Read this.
+
+2. Copy .stylelintrc.json to the root directory of your project.
+
+3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+
+If you think that change is necessary - open a Pull Request in this repository and let your code reviewer know about it. 4. Run npx stylelint "\*_/_.{css,scss}" on the root of your directory of your project.
+
+5. Fix linter errors.
+
+6. **IMPORTANT NOTE:** feel free to research auto-correct options for Stylelint if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Author**
 
 Omaidu Othniel
 
@@ -103,34 +149,28 @@ Omaidu Othniel
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
-- [coming soon!!] **[coming_soon]**
-
+- [ ] **[new_feature_1]**
+      This project will not have any additional features.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ## 🤝 Contributing <a name="contributing"></a>
-coming soon!!
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-
-coming soon!!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+If you like this project, kindly leave a comment below and share it with someone who enjoys coding! And also give it star. Keep going!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
@@ -139,10 +179,12 @@ I would like to thank Microverse for helping out with this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
