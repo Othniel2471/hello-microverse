@@ -141,11 +141,10 @@ If you think that change is necessary - open a Pull Request in this repository a
 
 👤 **Author**
 
-Omaidu Othniel
 
-- GitHub: [@githubhandle](https://github.com/othniel2471)
-- Twitter: [@twitterhandle](Oomaidu)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/othniel-omaidu-3350a9164)
+- GitHub: (https://github.com/othniel2471)
+- Twitter: (https://twitter.com/@Oomaidu)
+- LinkedIn: (https://www.linkedin.com/in/othniel-omaidu-3350a9164)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
